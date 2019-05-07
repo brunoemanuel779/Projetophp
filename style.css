@@ -1,0 +1,300 @@
+/*Grupo STI PROJETO PRATICO DE PROGRAMAÇÃO */
+
+body{
+	background:url("img/fundo.png") repeat;
+}
+
+
+.principal{
+	   width:400px;
+	   height:380px;
+	  
+	   margin:0 auto;
+	   padding:0 auto;
+	   
+	   position:absolute;
+	   left:50%;
+	   top:50%;
+	   margin-left:-200px;
+	   margin-top:-180px;
+	   
+}
+.logo{
+	   width:230px;
+	   height:150px;
+	   margin:0 auto;
+	   padding:15 auto;
+	   
+}
+
+.label{
+	   font-family:arial;
+	   font-size:18px;
+	   display:inline-table;
+	   width:100px;
+	   
+}
+.campo{
+	border:1px solid #bbb;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+    border-radius: 3px;
+	height:25px;
+	width:230px;
+}
+
+.campo:focus{
+	-webkit-box-shadow: -1px -1px 4px 0px #445;
+-moz-box-shadow: -1px -1px 4px 0px #445;
+box-shadow: -1px -1px 4px 0px #445;
+}
+
+.enviar{
+	padding: 4px 11px;
+
+border: none;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+cursor:pointer;
+height:32px;
+width:235px;
+font-size:20px;
+color:#aaa;
+text-align:center;
+
+
+}
+
+.enviar:hover{
+	background:#445;
+	color:#fff;
+	
+}
+.cadastrar{
+	
+	font-size:25px;
+	position:relative;
+	left:50px;
+	top:8px;
+	text-decoration:none;
+	color:#bbb;
+	right:19px;
+	
+	
+	   
+}
+
+.cadastrar:hover{
+	color:#445;
+}
+
+.cad{
+	position:relative;
+	left:10px;
+}
+
+ /*Estilo pagina principal */
+ 
+ .header{
+	  
+	  width:900px;
+	  height:160px;
+	  margin:0 auto;
+	  padding:0 auto;
+ }
+ .logoprinc{
+	   width:230px;
+	   height:150px;
+	   margin:0 auto;
+	   padding:15 auto;
+	   position:relative;
+	   right:338px;
+	   top:12px;
+	   
+	   
+}
+
+.user{
+	   width:350px;
+	   
+	   
+	   position:relative;
+	   left:540px;
+	   top:-50px;
+	   
+}
+
+.mensuser{
+	     font-size:18px;
+		 padding:5px;
+		 
+		
+}
+
+.iconuser{
+	 width:30px;
+	 height:20px;
+}
+
+.menu{
+	width:900px;
+	height:40px;
+	margin:0 auto;
+    padding:0 auto;
+	
+}
+
+.menu ul li{
+	display:inline;
+	
+}
+.link{
+    text-decoration:none;
+	font-size:22px;
+	padding:4px;
+	width:150px;
+        position:relative;
+        left:40px;
+       display:block;
+	bottom:5px;
+	color:#666;
+}
+.menu a{
+	text-decoration:none;
+	font-size:20px;
+	padding:4px;
+	position:relative;
+	bottom:5px;
+	color:#666;
+}
+
+.linkm:hover{
+	text-decoration:underline;
+}
+
+hr{
+	width:900px;
+	margin:0 auto;
+    padding:0 auto;
+}
+
+.menucategorias{
+	width:200px;
+	height:500px;
+	position:relative;
+	left:200px;
+	
+	
+}
+
+.iconmenu{
+	padding:3px;
+	width:50px;
+	 height:40px;
+}
+
+.titlemenucat{
+      font-size:25px;
+      position:relative;
+	  
+	  bottom:15px;
+	  padding:8px;
+}
+
+.conteudo{
+	 width:700px;
+	 height:500px;
+	 position:relative;
+	 left:450px;
+	 bottom:502px;
+}
+
+.rodape{
+	width:900px;
+	height:30px;
+	margin:0 auto;
+    padding:0 auto;
+	
+	position:relative;
+	left:10px;
+	bottom:480px;
+}
+
+.mensrod{
+	     font-size:15px;
+		 padding:5px;
+		 
+		 
+		 
+		
+}
+
+.titlecat{
+	font-size:25px;
+	text-align:center;
+	position:relative;
+	top:-14px;
+	left:5px;
+}
+
+.campocat{
+	border:1px solid #bbb;
+   -moz-border-radius: 3px;
+   -webkit-border-radius: 3px;
+    border-radius: 3px;
+	height:25px;
+	width:500px;
+        
+    
+}
+
+.textwidth{
+	
+	height:140px;
+	
+}
+
+.campocat:focus{
+	-webkit-box-shadow: -1px -1px 4px 0px #445;
+-moz-box-shadow: -1px -1px 4px 0px #445;
+box-shadow: -1px -1px 4px 0px #445;
+}
+
+.cadcat{
+	
+	
+	position:relative;
+	
+	top:8px;
+	
+}
+
+.alinha{
+	position:relative;
+	left:105px;
+	top:40px;
+	   
+}
+
+
+
+
+.produto{
+	width:220px;
+	height:200px;
+	margin: 5px;
+	display:inline;
+	float:left;
+	
+}
+
+.tituprod{
+	font-size:27px;
+	color:#445;
+}
+.imgprod{
+	width:150px;
+	height:130px;
+}
+
